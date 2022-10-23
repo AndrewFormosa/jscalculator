@@ -5,9 +5,9 @@
 }
 
 .calculator{
-  background:green;
+  background:darkgrey;
   color:yellow;
-  height: 500px;
+  height: 520px;
   width:300px;
 }
 
@@ -15,7 +15,28 @@
   width:280px;
   height:100px;
   background: black;
+  color:white;
   border-radius: 10px;
   border-style:inset;
+
+}
+
+.keypad{
+
+}
+
+.but-calc{
+font-size: 1.7rem;
+font-style: bold;
+border-radius: 10px;
+border-style:outset;
+margin:1px;
+width:70px;
+height:70px;
+}
+
+.but-calc:active{
+transform: translate(1px, 1px);
+color:white;
 }
 
