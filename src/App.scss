@@ -2,34 +2,59 @@
 
 .App {
   text-align: center;
+  background: blue;
+}
+
+p{
+  color:lightgray;
+  font-size: 1.2rem;
+  margin-top: 3px;
 }
 
 .calculator{
   background:darkgrey;
+  border-style:outset;
+  border-radius: 20px;
   color:yellow;
-  height: 520px;
-  width:300px;
+  height: 550px;
+  width:310px;
 }
 
-#display{
+#full-display{ 
   width:280px;
-  height:100px;
+  height:120px;
   background: black;
   color:white;
   border-radius: 10px;
   border-style:inset;
 
+  .total-display{
+
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+    width:250px;
+    height:50px;
+    margin:5px;
+    font-size: 0.8rem;
+    word-wrap: break-word;
+  }
+
+  .input-display{
+    height:50px;
+ 
+    font-size: 1.7rem;
+    margin: 5px;
+  }
+
 }
 
-.keypad{
-
-}
 
 .but-calc{
 font-size: 1.7rem;
 font-style: bold;
 border-radius: 10px;
-border-style:outset;
+
 margin:1px;
 width:70px;
 height:70px;
